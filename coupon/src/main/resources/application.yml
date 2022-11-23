@@ -1,0 +1,15 @@
+server:
+  port: 8000
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  mapper-locations: /mapper/**/*.xml
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.134.156.92:3306/gulimall_sms
+    username: root
+    password: root
