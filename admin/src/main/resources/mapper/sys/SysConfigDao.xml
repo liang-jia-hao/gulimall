@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="xyz.luckye.gulimall.common.modules.sys.dao.SysConfigDao">
+<mapper namespace="xyz.luckye.gulimall.modules.sys.dao.SysConfigDao">
 
     <!-- 根据key，更新value -->
     <update id="updateValueByKey" parameterType="map">
@@ -11,7 +11,7 @@
 
     <!-- 根据key，查询value -->
     <select id="queryByKey" parameterType="string"
-            resultType="xyz.luckye.gulimall.common.modules.sys.entity.SysConfigEntity">
+            resultType="xyz.luckye.gulimall.modules.sys.entity.SysConfigEntity">
         select *
         from sys_config
         where param_key = #{paramKey}

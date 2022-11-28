@@ -1,7 +1,7 @@
 package xyz.luckye.gulimall.common;
 
 import xyz.luckye.gulimall.common.utils.RedisUtils;
-import xyz.luckye.gulimall.common.modules.sys.entity.SysUserEntity;
+import xyz.luckye.gulimall.modules.sys.entity.SysUserEntity;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.junit.Test;
 import org.junit.runner.RunWith;

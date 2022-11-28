@@ -1,18 +1,12 @@
-/**
- * Copyright (c) 2016-2019 人人开源 All rights reserved.
- * <p>
- * https://www.renren.io
- * <p>
- * 版权所有，侵权必究！
- */
+
 
 package xyz.luckye.gulimall.common.utils;
 
-import xyz.luckye.gulimall.common.exception.RRException;
-import xyz.luckye.gulimall.common.modules.sys.entity.SysUserEntity;
+import xyz.luckye.gulimall.modules.sys.entity.SysUserEntity;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
+import xyz.luckye.gulimall.common.exception.RRException;
 
 /**
  * Shiro工具类

@@ -1,16 +1,10 @@
-/**
- * Copyright (c) 2016-2019 人人开源 All rights reserved.
- * <p>
- * https://www.renren.io
- * <p>
- * 版权所有，侵权必究！
- */
+
 
 package xyz.luckye.gulimall.common.service;
 
-import xyz.luckye.gulimall.common.datasource.annotation.DataSource;
-import xyz.luckye.gulimall.common.modules.sys.dao.SysUserDao;
-import xyz.luckye.gulimall.common.modules.sys.entity.SysUserEntity;
+import xyz.luckye.gulimall.datasource.annotation.DataSource;
+import xyz.luckye.gulimall.modules.sys.dao.SysUserDao;
+import xyz.luckye.gulimall.modules.sys.entity.SysUserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

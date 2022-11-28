@@ -1,20 +1,14 @@
-/**
- * Copyright (c) 2016-2019 人人开源 All rights reserved.
- * <p>
- * https://www.renren.io
- * <p>
- * 版权所有，侵权必究！
- */
+
 
 package xyz.luckye.gulimall.common.aspect;
 
 import com.google.gson.Gson;
 import xyz.luckye.gulimall.common.annotation.SysLog;
-import xyz.luckye.gulimall.common.modules.sys.entity.SysLogEntity;
-import xyz.luckye.gulimall.common.modules.sys.entity.SysUserEntity;
-import xyz.luckye.gulimall.common.modules.sys.service.SysLogService;
 import xyz.luckye.gulimall.common.utils.HttpContextUtils;
 import xyz.luckye.gulimall.common.utils.IPUtils;
+import xyz.luckye.gulimall.modules.sys.entity.SysLogEntity;
+import xyz.luckye.gulimall.modules.sys.entity.SysUserEntity;
+import xyz.luckye.gulimall.modules.sys.service.SysLogService;
 import org.apache.shiro.SecurityUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
